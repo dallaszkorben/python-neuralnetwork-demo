@@ -22,7 +22,7 @@ Neural Network Object
 
     def __init__(self, input, expected, hiddenlayers):
 
-        # checking parameters
+        # check parameters
         if( type(input).__name__ != "ndarray" ):
             raise Exception( "The parameter 'input' is not 'numpy.ndarray': ", type(input).__name__ )
         if( type(expected).__name__ != "ndarray" ):
